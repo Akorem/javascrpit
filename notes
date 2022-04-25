@@ -1,0 +1,76 @@
+high level object oriented programming language
+a programming language is just a tool that enables us to write codes that will instruct the computer on what to do for us
+can be used for the frontend and backend
+variables - are storage facilities/containers 
+declarators - const, var- was the only declarator used before ES6(Ecma script), let
+values - are those things that are assigned to the variables
+let - declare, reassign 
+var - declare, redclare, reassign
+const - stays the same
+
+
+constraints in variable naming:
+when naming variables do not give space between names we make use of camel casing or underscore and they can never start with a number but it can contain one
+when writing variables use a descriptive variable name
+
+
+DATA TYPES:
+string - are usually represented with quotes, they hold letters/alphabets, they have properties and it has methods
+number - 
+undefined
+null
+boolean
+object 
+big int
+symbol
+
+Array is a data structure inside the object(filter and map)
+Arrays have properties and methods
+methods are functions that are related to a data type
+
+loops - for loops - initialixer condition and final expression
+        while loop -  do while
+conditional statements - else statement
+                         if statement
+                         else if statement
+                         switch
+
+higher order functions - they accept other functions as an argument
+call back -are functions that are used as arguments for other functions
+
+FUNCTIONS
+we have 3 types - declaration, expression and arrow function
+
+
+-DECLARATION FUNCTION
+function greet((the parameter)){
+  console.log('hello')
+}
+greet('My name is lucifer'(the argument))
+* the argument of a declaration function can be placed anywhere either below or above the function itself
+
+-EXPRESSION FUNCTION
+let test = function(name){
+  console.log(`hello my name is ${name}`)
+}
+
+test(Lucifer)
+
+* for expression functions with multiple parameters
+let multi = function(name, country){
+  console.log(`hello my name is ${name} and i'm from ${country}`)
+}
+
+multi(Lucifer, Hell)
+
+-ARROW FUNCTION
+let explain = (number)=>{
+       let apples = 10
+let statement = 'akin was able to buy ' + apples + ' wraps of fufu ' + number
+return statement
+// console.log(statement); 
+}
+
+let description = explain('on his way back from church')
+console.log(description);
+
